@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base mínimos (opcional, para reset) */
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.5;
+}
+
+/* Tema claro/oscuro simple (agrega si quieres dark mode después) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+  }
+}
